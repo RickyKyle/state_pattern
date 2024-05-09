@@ -2,9 +2,9 @@
 #define STATE_IDLE_HPP
 
 #include "context.hpp"
-#include "state.hpp"
+#include "state_base.hpp"
 
-class state_idle : public state
+class state_idle : public state_base
 {
 public:
 

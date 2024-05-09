@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(state_pattern main.cpp
                              context.cpp
-                             state.cpp
                              state_idle.cpp
+                             state_base.cpp
                              state_awaiting_coins.cpp)
 

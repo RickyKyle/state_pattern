@@ -7,7 +7,7 @@ public:
 
     virtual void insert_coins() = 0;
     virtual void select_product() = 0;
-    void kick_machine();
+    virtual void kick_machine() = 0;
 };
 
 #endif

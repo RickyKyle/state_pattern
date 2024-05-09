@@ -2,9 +2,9 @@
 #define STATE_AWAITING_COINS_HPP
 
 #include "context.hpp"
-#include "state.hpp"
+#include "state_base.hpp"
 
-class state_awaiting_coins : public state
+class state_awaiting_coins : public state_base
 {
 public:
 
